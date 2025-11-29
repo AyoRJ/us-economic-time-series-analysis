@@ -1,6 +1,6 @@
 ---
-title:  "MTH783P Final Project"
-author: "Jolaoso Ayomide, 210355547, ec21629@qmul.ac.uk"
+title:  "US Economic Time Series Analysis"
+author: "Ayomide Jolaoso"
 date:   "Last compiled on:   `r format(Sys.time(), '%d %B, %Y')`"
 output:
   pdf_document: default
@@ -414,3 +414,4 @@ accuracy(forecast_lm, test[,"Consumption"])
 ```
 *Findings:* The residuals from the linear regression model appear to be fairly well-behaved. The residuals fluctuate around zero with constant variance.
 The linear regression model produced accurate forecasts, especially in the test period. The test set RMSE (0.087) and MASE (0.117) are both slightly better than those from the regression with ARIMA errors and significantly better than the ARIMA only model. The Theil’s U statistic (0.25) also indicates strong accuracy. While the model does not account for autocorrelation, its strong test performance supports that simpler models can sometimes generalise better when predictors are strong.
+
